@@ -1,0 +1,14 @@
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\bin\Debug\net8.0\ProyectoConsola.exe
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\bin\Debug\net8.0\ProyectoConsola.deps.json
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\bin\Debug\net8.0\ProyectoConsola.runtimeconfig.json
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\bin\Debug\net8.0\ProyectoConsola.dll
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\bin\Debug\net8.0\ProyectoConsola.pdb
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\ProyectoConsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\ProyectoConsola.AssemblyInfoInputs.cache
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\ProyectoConsola.AssemblyInfo.cs
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\ProyectoConsola.csproj.CoreCompileInputs.cache
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\ProyectoConsola.dll
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\refint\ProyectoConsola.dll
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\ProyectoConsola.pdb
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\ProyectoConsola.genruntimeconfig.cache
+C:\Users\Cristhofer\Desktop\CristhoferProyectos\ProyectoConsola - Revancha\obj\Debug\net8.0\ref\ProyectoConsola.dll

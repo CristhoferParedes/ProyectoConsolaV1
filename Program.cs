@@ -24,14 +24,14 @@ do
                     case 3:
                         break;
                     default:
-                        Console.WriteLine("-");
+                        Console.WriteLine("");
                         break;
                 }
 
             } while (opcionmenusegundario != 3);
             break;
         default:
-            Console.WriteLine("-");
+            Console.WriteLine("");
             break;
     }
 } while (opcionmenuprincipal != 3);

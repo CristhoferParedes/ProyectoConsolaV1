@@ -1,7 +1,4 @@
-﻿
-using System;
-
-namespace ProyectoConsola
+﻿namespace ProyectoConsola
 {
     public class Interfaz
     {
@@ -13,13 +10,13 @@ namespace ProyectoConsola
 
             do
             {
-                Console.SetCursorPosition(2, 4);
+                Console.SetCursorPosition(0, 4);
                 Console.WriteLine("                     ");
                 Console.WriteLine("                     ");
                 Console.WriteLine("                     ");
                 Console.WriteLine("                     ");
 
-                Console.SetCursorPosition(5, 10);
+                Console.SetCursorPosition(0, 10);
                 Console.Write("                                 ");
 
                 Console.SetCursorPosition(0, 25);
@@ -81,7 +78,7 @@ namespace ProyectoConsola
 
             do
             {
-                Console.SetCursorPosition(2, 7);
+                Console.SetCursorPosition(0, 7);
                 Console.WriteLine("                                        ");
                 Console.WriteLine("                                        ");
                 Console.WriteLine("                                        ");
@@ -132,6 +129,8 @@ namespace ProyectoConsola
 
         public static void MenuDocente()
         {
+            int dni; //aqi me quede
+            
             Console.SetCursorPosition(5, 7);
             Console.Write("DNI DOCENTE:   ");
             Console.SetCursorPosition(20, 7);
@@ -141,6 +140,10 @@ namespace ProyectoConsola
             Console.Write("NOMBRE DOCENTE:   ");
             Console.SetCursorPosition(20, 9);
             Console.ReadLine();
+
+            Console.SetCursorPosition(2, 20);
+            Console.WriteLine("Se guardo correctamente al nuevo docente ...");
+            Console.ReadKey();
 
         }
     }

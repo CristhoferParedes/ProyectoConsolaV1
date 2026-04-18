@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cristhofer\\Desktop\\CristhoferProyectos\\ProyectoConsola - Revancha\\ProyectoConsola.csproj",
+      "projectUniqueName": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\ProyectoConsola.csproj",
       "projectName": "ProyectoConsola",
-      "projectPath": "C:\\Users\\Cristhofer\\Desktop\\CristhoferProyectos\\ProyectoConsola - Revancha\\ProyectoConsola.csproj",
+      "projectPath": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\ProyectoConsola.csproj",
       "packagesPath": "C:\\Users\\Cristhofer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cristhofer\\Desktop\\CristhoferProyectos\\ProyectoConsola - Revancha\\obj\\",
+      "outputPath": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

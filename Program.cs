@@ -1,40 +1,35 @@
-﻿
-using ProyectoConsola;
+﻿using ProyectoConsola;
 
-Console.CursorVisible = false;
+//Console.CursorVisible = false;
 
-int opcionmenuprincipal, opcionmenusegundario;
+int indexprin;
+int indexseg;
+
+Interfaz.MenuPrincipalFijo();
 
 do
 {
-    opcionmenuprincipal = Interfaz.MenuPrincipal();
+    indexprin = Interfaz.MenuPrincipal();
 
-    switch (opcionmenuprincipal)
+    switch (indexprin)
     {
         case 0:
-            do
             {
-                opcionmenusegundario = Interfaz.MenuSegundario();
-
-                switch (opcionmenusegundario)
+                do
                 {
-                    case 0:
-                        Interfaz.MenuDocente();
-                        break;
-                    case 3:
-                        break;
-                    default:
-                        Console.WriteLine("");
-                        break;
-                }
+                    indexseg = Interfaz.MenuSegundario();
 
-            } while (opcionmenusegundario != 3);
-            break;
-        default:
-            Console.WriteLine("");
-            break;
+                    if (indexseg != 3)
+                    {
+                        Interfaz.OperacionRegistar(indexseg);            
+                    }
+
+                    break;
+                } while (indexseg != 3);
+                break;
+            }        
     }
-} while (opcionmenuprincipal != 3);
+} while (indexprin != 3);
 
 
 

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|c:\\users\\cristhofer\\desktop\\cristhproyectos\\consola\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|solutionrelative:logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|c:\\users\\cristhofer\\desktop\\cristhproyectos\\consola\\interfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|solutionrelative:interfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|c:\\users\\cristhofer\\desktop\\cristhproyectos\\consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|c:\\users\\cristhofer\\desktop\\cristhproyectos\\consola\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|solutionrelative:logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Logica.cs",
               "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Logica.cs",
               "RelativeDocumentMoniker": "Logica.cs",
               "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Logica.cs",
               "RelativeToolTip": "Logica.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T09:43:01.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Interfaz.cs",
               "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Interfaz.cs",
               "RelativeDocumentMoniker": "Interfaz.cs",
               "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Interfaz.cs",
               "RelativeToolTip": "Interfaz.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAuwIIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwGwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T00:18:13.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T11:04:17.994Z"
+              "WhenOpened": "2026-04-10T11:04:17.994Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,6 +1,6 @@
 ﻿using ProyectoConsola;
 
-//Console.CursorVisible = false;
+Console.CursorVisible = false;
 
 int indexprin;
 int indexseg;
@@ -17,19 +17,33 @@ do
             {
                 do
                 {
-                    indexseg = Interfaz.MenuSegundario();
+                    indexseg = Interfaz.MenuSecundario(indexprin);
 
                     if (indexseg != 3)
                     {
-                        Interfaz.OperacionRegistar(indexseg);            
+                        Interfaz.OperacionRegistrar(indexseg);
                     }
 
-                    break;
                 } while (indexseg != 3);
+
                 break;
-            }        
+            }
+
+        case 2:
+            {
+                do
+                {
+                    indexseg = Interfaz.MenuSecundario(indexprin);
+
+                    if (indexseg != 3)
+                    {
+                        Interfaz.OperacionReporte(indexseg);
+                    }
+
+                } while (indexseg != 3);
+
+                break;
+            }
     }
+
 } while (indexprin != 3);
-
-
-

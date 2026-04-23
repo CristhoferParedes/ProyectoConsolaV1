@@ -26,7 +26,6 @@
 
             do
             {
-                //escribe el menu principal
                 Console.SetCursorPosition(0, 3);
 
                 for (int i = 0; i < opciones.Length; i++)
@@ -58,27 +57,33 @@
 
             return index;
         }
-
-        public static int MenuSegundario()
+        public static int MenuSecundario(int dato)
         {
             string[] opciones = {"DOCENTE", "ESTUDIANTE", "CURSOS", "SALIR"};
             int index = 0;
             ConsoleKey tecla;
 
+            int position = 3 + (dato * 17);
+
             do
             {
-                Console.SetCursorPosition(0, 4);
-
                 for (int i = 0; i < opciones.Length; i++)
                 {
                     if (i == index)
-                    {                    
+                    {
+                        Console.SetCursorPosition(position, (4 + i));
                         Console.BackgroundColor = ConsoleColor.Yellow;
                         Console.ForegroundColor = ConsoleColor.Black;
                         Console.WriteLine($" {opciones[i]} ");
                         Console.ResetColor();
                     }
-                    else Console.WriteLine($" {opciones[i]} ");                   
+                    else
+                    {
+
+                        Console.SetCursorPosition(position, (4 + i));
+                        Console.WriteLine($" {opciones[i]} ");                   
+
+                    }
                 }
                 
                 tecla = Console.ReadKey(true).Key;
@@ -96,37 +101,34 @@
 
             } while (tecla != ConsoleKey.Enter);
 
-            //se limpia cuando se cierra completamente o se seleciona una opcion en el submenu
+            //limpia cuando termina el bucle while y se regresa al do while anterior.
             Console.SetCursorPosition(0, 4);
-            Console.WriteLine("1                uwu                          1");
-            Console.WriteLine("1                uwu                          1");
-            Console.WriteLine("1                uwu                          1");
-            Console.WriteLine("1                uwu                          1");
-            Console.WriteLine("1                uwu                          1");
-            Console.WriteLine("1                uwu                          1");
-            Console.WriteLine("1                uwu                          1");
-            Console.WriteLine("1                uwu                          1");
-            Console.WriteLine("1                uwu                          1");
-
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
 
             return index;
         }
 
-        public static void OperacionRegistar(int num)
+        public static void OperacionRegistrar(int num)
         {
-            int dni;
+            int dni = 0;
+            string nomb = "";
             bool validado = false;
             string nombreN = "";
             string nombreP = "";
             string nom = "";
+            string pron = "";
+            int precio = 0;
 
             while (!validado)
             {
                 
 
-                //Limpia la seccion despues de escribir el dni , si es incorrecto
+                //Limpia despues de escribir datos incorrectos.
                 Console.SetCursorPosition(20, 7);
-                Console.WriteLine("                                      ");
+                Console.WriteLine("                                                ");
 
 
                 switch (num)
@@ -136,8 +138,7 @@
                             nom = "DOCENTE";
                             nombreN = $"     DNI {nom}: ";
                             nombreP = $"  NOMBRE {nom}: ";
-
-
+                            pron = "al";
                             break;
                         }
                     case 1:
@@ -145,6 +146,8 @@
                             nom = "ESTUDIANTE";
                             nombreN = $"  DNI {nom}: ";
                             nombreP = $"NOMBR {nom}: ";
+                            pron = "al";
+
                             break;
                         }
                     case 2:
@@ -152,6 +155,8 @@
                             nom = "CURSO";
                             nombreN = $"    CODIGO {nom}: ";
                             nombreP = $"    NOMBRE {nom}: ";
+                            pron = "el";
+
                             break;
                         }
                 }
@@ -166,39 +171,97 @@
                 if (!validado) 
                 {
                     Console.SetCursorPosition(20, 7);
-                    Console.WriteLine("Ingrese el dni correctamente por favor");
+                    Console.WriteLine("Ingrese los datos correctamente por favor");
                     Console.ReadKey();
                 }
             }
 
             Console.SetCursorPosition(2, 9);
             Console.Write(nombreP);
-            Console.SetCursorPosition(20, 9);
-            Console.ReadLine();
 
-            if(num == 2)
+            Console.SetCursorPosition(20, 9);
+            nomb = Console.ReadLine();
+
+            if (num == 2)
             {
 
                 Console.SetCursorPosition(2, 11);
                 Console.Write($"   PRECIO { nom}: ");
 
                 Console.SetCursorPosition(20, 11);
-                Console.ReadLine();
+                precio = int.Parse(Console.ReadLine());
             }
 
+            Logica.AgregarDatos(dni, nomb, precio, num);
+
             Console.SetCursorPosition(2, 20);
-            Console.WriteLine($"Se guardo correctamente el nuevo {nom} ...");
+            Console.WriteLine($"Se guardo correctamente {pron} nuevo {nom} ...");
             Console.ReadKey();
 
             //Limpia despues de la operacion
-            Console.SetCursorPosition(2, 20);
-            Console.WriteLine("11                                              12");
+            Console.SetCursorPosition(0, 7);
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
 
-            //limpia texto precio
-            Console.SetCursorPosition(0, 11);
-            Console.WriteLine("13                                              14");
+        }
 
+        public static void OperacionReporte(int dato)
+        {
+            string nom ="";
+            int num;
+            
+            if (dato == 0)
+            {
+                nom = "DOCENTE";
+            }
+            else if (dato == 1)
+            {
+                nom = "ESTUDIAMTE";
+            }
+            else if (dato == 2)
+            {
+                nom = "CURSO";
+            }
 
+            Console.SetCursorPosition(20, 7);
+            Console.WriteLine($" DNI/CODIGO    {nom}");
+            
+            num = Logica.MostrarReporte(dato);
+            Console.SetCursorPosition(22, 8);
+            Console.WriteLine($"{num}    uwu");
+
+            //Limpia despues de la operacion
+            Console.SetCursorPosition(0, 7);
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+        }
+
+        public static void OperacionAsistencia()
+        {
 
         }
     }

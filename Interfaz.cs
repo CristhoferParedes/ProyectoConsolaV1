@@ -52,8 +52,7 @@
                     index--;
                     if (index < 0) index = opciones.Length - 1;                   
                 }
-            }
-            while (tecla != ConsoleKey.Enter);
+            } while (tecla != ConsoleKey.Enter);
 
             return index;
         }
@@ -236,12 +235,12 @@
             }
 
             Console.SetCursorPosition(20, 7);
-            Console.WriteLine($" DNI/CODIGO    {nom}");
+            Console.WriteLine($"DNI/CODIGO    {nom}");
             
-            num = Logica.MostrarReporte(dato);
-            Console.SetCursorPosition(22, 8);
-            Console.WriteLine($"{num}    uwu");
+            
+            Logica.MostrarReporte(dato);            
 
+            Console.ReadKey();
             //Limpia despues de la operacion
             Console.SetCursorPosition(0, 7);
             Console.WriteLine("                                                         ");
@@ -261,8 +260,24 @@
         }
 
         public static void OperacionAsistencia()
-        {
-
+        {         
+            Logica.MostarAsistencia();
+            //Limpia despues de la operacion
+            Console.SetCursorPosition(0, 7);
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
+            Console.WriteLine("                                                         ");
         }
     }
 }

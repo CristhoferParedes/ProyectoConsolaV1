@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|c:\\users\\cristhofer\\desktop\\cristhproyectos\\consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|c:\\users\\cristhofer\\desktop\\cristhproyectos\\consola\\logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|solutionrelative:logica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|c:\\users\\cristhofer\\desktop\\cristhproyectos\\consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDEFA55D-C4D8-4CB1-9266-D182815EDFAA}|ProyectoConsola.csproj|c:\\users\\cristhofer\\desktop\\cristhproyectos\\consola\\interfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,22 +21,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 247,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logica.cs",
-              "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Logica.cs",
-              "RelativeDocumentMoniker": "Logica.cs",
-              "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Logica.cs",
-              "RelativeToolTip": "Logica.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAADsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T09:43:01.3Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -45,22 +32,35 @@
               "RelativeDocumentMoniker": "Interfaz.cs",
               "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Interfaz.cs",
               "RelativeToolTip": "Interfaz.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAgwHEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T00:18:13.935Z",
+              "WhenOpened": "2026-04-27T10:14:09.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Logica.cs",
+              "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Logica.cs",
+              "RelativeDocumentMoniker": "Logica.cs",
+              "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Logica.cs*",
+              "RelativeToolTip": "Logica.cs*",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAIwGUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T09:43:01.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Cristhofer\\Desktop\\CristhProyectos\\Consola\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAArwCcAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T11:04:17.994Z",
+              "WhenOpened": "2026-04-25T10:48:25.118Z",
               "EditorCaption": ""
             }
           ]

@@ -2,48 +2,58 @@
 
 Console.CursorVisible = false;
 
-int indexprin;
-int indexseg;
+int prin;
+int secu;
 
 Interfaz.MenuPrincipalFijo();
 
-do
+do //entrar al bucle
 {
-    indexprin = Interfaz.MenuPrincipal();
+    prin = Interfaz.MenuPrincipal(); //escojer una opcion
 
-    switch (indexprin)
+    switch (prin)
     {
-        case 0:
+        case 0: //escojer la opcion REGISTRAR
+            {
+                do //entrar al bucle
+                {
+                    secu = Interfaz.MenuSecundario(prin); //escojer una opcion dentro de REGISTRAR
+
+                    if (secu != 3) //entrar si es diferente de 3 (SALIR)
+                    {
+                        Interfaz.OperacionRegistrar(secu);
+                    }
+
+                } while (secu != 3);
+                break;
+            }
+        case 1: //escoger ASISTENCIA
             {
                 do
                 {
-                    indexseg = Interfaz.MenuSecundario(indexprin);
+                    secu = Interfaz.MenuSecundario(prin);
 
-                    if (indexseg != 3)
+                    if (secu != 3)
                     {
-                        Interfaz.OperacionRegistrar(indexseg);
+                        Interfaz.OperacionAsistencia();
                     }
 
-                } while (indexseg != 3);
-
+                } while (secu != 3);
                 break;
             }
-
         case 2:
             {
                 do
                 {
-                    indexseg = Interfaz.MenuSecundario(indexprin);
+                    secu = Interfaz.MenuSecundario(prin);
 
-                    if (indexseg != 3)
+                    if (secu != 3)
                     {
-                        Interfaz.OperacionReporte(indexseg);
+                        Interfaz.OperacionReporte(secu);
                     }
 
-                } while (indexseg != 3);
-
+                } while (secu != 3);
                 break;
             }
     }
-
-} while (indexprin != 3);
+} while (prin != 3);
